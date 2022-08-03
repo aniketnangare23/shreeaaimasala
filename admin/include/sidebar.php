@@ -27,30 +27,30 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
               </a>
             </li>
             <li class="nav-item">
-              <a href="gallery.php" class="nav-link <?= $page == 'gallery.php' ? 'active':'' ?>">
-              <i class="nav-icon fa-solid fa-image text-skyblue"></i>
+              <a href="products.php" class="nav-link <?= $page == 'gallery.php' ? 'active':'' ?>">
+              <i class=" nav-icon fa fa-product-hunt"></i>
                 <p>
-                Gallery
+                  Products
                 </p>
               </a>
             </li>
-            <!-- <li class="nav-item">
-             <a href="banner.php" class="nav-link <?= $page == 'banner.php' ? 'active':'' ?>">
+            <li class="nav-item">
+             <a href="addcategories.php" class="nav-link <?= $page == 'banner.php' ? 'active':'' ?>">
               <i class="nav-icon fa-solid fa-image text-skyblue"></i>
                <p>
-              Banner
+              Add Categories
                </p>
              </a>
-           </li> -->
+           </li>
            <!-- <li class="nav-item">
-              <a href="packages.php" class="nav-link <?= $page == 'packages.php' ? 'active':'' ?>">
-              <i class="nav-icon fa-solid fa-box-open text-red"></i>
-                <p>
-               Packages
-                </p>
-              </a>
-            </li> -->
-            <!-- <li class="nav-item">
+                  <a href="packages.php" class="nav-link <?= $page == 'packages.php' ? 'active':'' ?>">
+                  <i class="nav-icon fa-solid fa-box-open text-red"></i>
+                    <p>
+                  Packages
+                    </p>
+                  </a>
+            </li>
+             <li class="nav-item">
               <a href="packages_order.php" class="nav-link <?= $page == 'packages_order.php' ? 'active':'' ?>">
               <i class="nav-icon fa-solid fa-box-open text-red"></i>
                 <p>
@@ -83,15 +83,6 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
               </a>
             </li> -->
         </ul>
-      </li>            
-          
-           
-           
-            
-        
-          
-          
-           
         </nav>
         <!-- /.sidebar-menu -->
       </div>

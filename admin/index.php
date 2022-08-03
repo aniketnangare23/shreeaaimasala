@@ -6,7 +6,7 @@ include('include/config.php');
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin | Unique Pathalogy</title>
+  <title>Admin | Index</title>
   <!-- Favicons -->
   <link href="../assets/img/favicon.png" rel="icon">
   
@@ -47,10 +47,10 @@ include('include/config.php');
 <div class="wrapper">
 
   <!-- Preloader -->
+  
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
     </div>
-
     <!-- Navbar -->
     <?php include"include/header.php" ?>
   
@@ -88,7 +88,7 @@ include('include/config.php');
             <div class="info-box">
               <span class="info-box-icon bg-info elevation-1"><i class="fa fa-envelope-open-text"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from subscribe");
+              $query=mysqli_query($conn,"select * from products");
                $count1=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">
@@ -106,7 +106,7 @@ include('include/config.php');
             <div class="info-box mb-3">
               <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-calendar"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from make_an_appointment");
+              $query=mysqli_query($conn,"select * from products");
                $count2=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">
@@ -126,7 +126,7 @@ include('include/config.php');
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success elevation-1"><i class="fa fa-check"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from treatment_order");
+              $query=mysqli_query($conn,"select * from products");
                $count3=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">
@@ -142,7 +142,7 @@ include('include/config.php');
             <div class="info-box mb-3">
               <span class="info-box-icon bg-warning elevation-1"><i class=" text-white fa fa-phone"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from contact_us");
+              $query=mysqli_query($conn,"select * from products");
                $count4=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">

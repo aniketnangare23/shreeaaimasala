@@ -1,7 +1,7 @@
 <!-- 
 <?php
 session_start();
-include("../assets/include/config.php");
+include("include/config.php");
 if(isset($_POST['login'])){
 $email=$_POST['email'];
 $password1=$_POST['password'];

@@ -1,55 +1,18 @@
 <?php 
 include("include/config.php");
-if(isset($_POST['portfolio_add'])){
-  $file=$_FILES['portfolio_image']['name'];    
-  $company_name=$_POST['company_name'];
-  $website_link=$_POST['website_link'];
-  $filedet=$_FILES['portfolio_image']['tmp_name'];
-  $id=$_GET['eid'];
-
-  if(empty(($_FILES['portfolio_image']['tmp_name'])) && ($_POST['portImage']) && ($_GET['eid'])){
-    $id=$_GET['eid'];
-    $dnk = $_POST['portImage'];
-    
-    $sql=mysqli_query($conn,"update `portfolio` SET `company_name`='$company_name',`link`='$website_link',`image`='$dnk ' WHERE id='$id'");    
-    }
-   
-  else if(!empty($_FILES['portfolio_image']['tmp_name']) && ($_POST['portImage']) || !empty($_FILES['portfolio_image']['tmp_name']) && (empty($_POST['portImage']) && ($_GET['eid']))){
-    $id=$_GET['eid'];
-    $loc="../assets/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql=mysqli_query($conn,"update `portfolio` SET `company_name`='$company_name',`link`='$website_link',`image`='$file' WHERE id='$id'");
-  }else{
-
-  $loc="../assets/img/gallery/".$file;
-  move_uploaded_file($filedet,$loc);
-  $sql=mysqli_query($conn,"insert into portfolio (company_name,link,image) values('$company_name','$website_link','$file')");}
-  
-  if($sql==1){
-     header("location:gallery.php");
-  }else{
-      mysqli_error($conn);
-  }
-
-}
 
 if(isset($_GET['delid'])){
   $id=mysqli_real_escape_string($conn,$_GET['delid']);
-  $sql=mysqli_query($conn,"delete from portfolio where id='$id'");
+  $sql=mysqli_query($conn,"delete from add_categories where id='$id'");
   if($sql=1){
-    header("location:gallery.php");
+    header("location:add_categories.php");
   }
 }
 
-$company_name="";
-$website_link="";
-$image="";
 if(isset($_GET['eid'])){
-  $sql=mysqli_query($conn,"select * from portfolio where id='$_GET[eid]'");
+  $sql=mysqli_query($conn,"select * from add_categories where id='$_GET[eid]'");
   $row=mysqli_fetch_array($sql);
-  $company_name=$row['company_name'];
-  $website_link=$row['link'];
-  $image=$row['image'];
+  $categories=$row['categories'];
 }
   
 ?>
@@ -59,7 +22,7 @@ if(isset($_GET['eid'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin - Gallery</title>
+  <title>Admin - Add Categories</title>
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon">
 
@@ -84,6 +47,8 @@ if(isset($_GET['eid'])){
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <!-- dropzonejs -->
+  <link rel="stylesheet" href="plugins/dropzone/min/dropzone.min.css">
 
     <!-- DataTables -->
     <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -123,12 +88,12 @@ if(isset($_GET['eid'])){
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Gallery</h1>
+              <h1 class="m-0">Add Categories</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                <li class="breadcrumb-item active">Gallery</li>
+                <li class="breadcrumb-item active">Add Categories</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -142,41 +107,22 @@ if(isset($_GET['eid'])){
             <div class="col-12 grid-margin">
               <div class="card">
                 <div class="card-header">
-                <h4 class="card-title">Add Gallery Images</h4>  
+                <h4 class="card-title">Add Categories</h4>  
                 </div>
                 <div class="card-body">
-                  <form class="form-sample" method="post" enctype="multipart/form-data">
+                  <form action="addcategoriesDB.php" class="form-sample" method="post" enctype="multipart/form-data">
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label"><b>Short Description</b></label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" value="<?php echo $company_name; ?>"
-                              name="company_name">
-                          </div>
-                        </div>
-                        <!-- <div class="form-group row">
-                          <label class="col-sm-3 col-form-label"><b>Website link</b></label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" value="<?php echo $website_link; ?>"
-                              name="website_link">
-                          </div>
-                        </div> -->
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label"><b>Upload Image</b></label>
-                          <div class="col-sm-9">
-                            <?php
-                            if(isset($_GET['eid'])){
-                              ?>
-                            <img src="../assets/img/gallery/<?php echo $image; ?>" width="100" height="100">
-                            <input type="hidden" value="<?php echo $image; ?>" name="portImage">
-                            <?php }  ?>
-                            <input type="file" class="form-control" name="portfolio_image">
+                        <label class="col-sm-3 col-form-label">Categories</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" name="categories">
+                            </select>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <input type="submit" class="btn btn-primary btn-icon-text" value="Submit" name="portfolio_add">
+                    <input type="submit" class="btn btn-primary btn-icon-text" value="Submit" name="submit">
 
                   </form>
                 </div>
@@ -184,7 +130,7 @@ if(isset($_GET['eid'])){
             </div>
           </div>
           <?php
-                                                  $selectquery="select * from portfolio";
+                                                  $selectquery="select * from add_categories";
                                                   $portfolio = mysqli_query($conn,$selectquery);
                                                   if (mysqli_num_rows($portfolio)>0){
 
@@ -200,9 +146,7 @@ if(isset($_GET['eid'])){
                       <thead>
                         <tr>
                           <th>Sr.No</th>
-                          <th>Short Description</th>
-                          <!-- <th>Website Link</th> -->
-                          <th>Image</th>
+                          <th>categories</th>
                           <th>Action</th>
                         </tr>
                       </thead>
@@ -216,22 +160,19 @@ if(isset($_GET['eid'])){
                             <?php echo $row["id"]; ?>
                           </td>
                           <td>
-                            <?php echo $row["company_name"]; ?>
+                            <?php echo $row["categories"]; ?>
                           </td>
-                          <!-- <td>
-                            <?php echo $row["link"]; ?>
-                          </td> -->
-                          <td><img src="../assets/img/gallery/<?php echo $row["image"]; ?>" ></td>
                           <td>
                             <a class="btn btn-primary btn-rounded btn-icon"
-                              href="gallery.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
+                              href="add_categories.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
                                 class="fa fa-edit"></i></a>
 
                             <a class="btn btn-danger btn-rounded btn-icon"
-                              href="gallery.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
+                              href="add_categories.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
                               class="btn btn-primary btn-rounded btn-icon">
                               <i class="fas fa-trash"></i>
                           </td>
+                          
                         </tr>
                         <?php
 											$i++;
@@ -302,6 +243,8 @@ if(isset($_GET['eid'])){
   <!-- <script src="dist/js/demo.js"></script> -->
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="dist/js/pages/dashboard.js"></script>
+  <!-- dropzonejs -->
+<script src="plugins/dropzone/min/dropzone.min.js"></script>
 
 
   <script>
