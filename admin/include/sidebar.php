@@ -42,15 +42,15 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                </p>
              </a>
            </li>
-           <!-- <li class="nav-item">
-                  <a href="packages.php" class="nav-link <?= $page == 'packages.php' ? 'active':'' ?>">
-                  <i class="nav-icon fa-solid fa-box-open text-red"></i>
+            <li class="nav-item">
+                  <a href="Contact_us.php" class="nav-link <?= $page == 'packages.php' ? 'active':'' ?>">
+                  <i class="nav-icon fa-solid fa-phone text-red"></i>
                     <p>
-                  Packages
+                 Contact Us
                     </p>
                   </a>
             </li>
-             <li class="nav-item">
+           <!--  <li class="nav-item">
               <a href="packages_order.php" class="nav-link <?= $page == 'packages_order.php' ? 'active':'' ?>">
               <i class="nav-icon fa-solid fa-box-open text-red"></i>
                 <p>

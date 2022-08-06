@@ -1,6 +1,47 @@
 <?php 
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+$masala_name=$_POST['masala_name'];
+$short_description=$_POST['short_description'];
+$categories=$_POST['categories'];
+$tags=$_POST['tags'];
+$sku=$_POST['sku'];
+$description=$_POST['description'];
+$file=$_FILES['file']['name'];
+$tmp_name = $_FILES['file']['tmp_name']; 
+$loc="dist/img/images/".$file;
+move_uploaded_file($tmp_name, $loc);
+$filedet=$_POST['img'];
+  $id=$_GET['eid'];
+
+  if(empty(($_FILES['file']['tmp_name'])) && ($_POST['img']) && ($_GET['eid'])){
+    $id=$_GET['eid'];
+    $dnk = $_POST['portImage'];
+    
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`sku`='$sku',`file`='$filedet',`description`='$description' WHERE id='$id'");    
+    }
+   
+  else if(!empty($_FILES['file']['tmp_name']) && ($_POST['img']) || !empty($_FILES['file']['tmp_name']) && (empty($_POST['img']) && ($_GET['eid']))){
+    $id=$_GET['eid'];
+move_uploaded_file($tmp_name, $loc);
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`sku`='$sku',`file`='$file',`description`='$description' WHERE id='$id'");    
+    }else{
+
+move_uploaded_file($tmp_name, $loc);
+$sql=mysqli_query($conn,"INSERT INTO `products`(`masala_name`, `short_description`, `categories`, `tags`, `sku`, `file`, `description`) VALUES ('$masala_name','$short_description','$categories','$tags','$sku','$file','$description')");}
+  
+  if($sql==1){
+     header("location:products.php");
+  }else{
+      mysqli_error($conn);
+  }
+
+}
+
+
+
+
 if(isset($_GET['delid'])){
   $id=mysqli_real_escape_string($conn,$_GET['delid']);
   $sql=mysqli_query($conn,"delete from products where id='$id'");
@@ -9,6 +50,13 @@ if(isset($_GET['delid'])){
   }
 }
 
+$masala_name='';
+$short_description='';
+$categories='';
+$tags='';
+$sku='';
+$file='';
+$description='';
 if(isset($_GET['eid'])){
   $sql=mysqli_query($conn,"select * from products where id='$_GET[eid]'");
   $row=mysqli_fetch_array($sql);
@@ -116,21 +164,21 @@ if(isset($_GET['eid'])){
                 <h4 class="card-title">Products</h4>  
                 </div>
                 <div class="card-body">
-                  <form action="productsDB.php" class="form-sample" method="post" enctype="multipart/form-data">
+                  <form action="" class="form-sample" method="post" enctype="multipart/form-data">
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Masala Name</b></label>
                           <div class="col-sm-9">
                             <input type="text" class="form-control"
-                              name="masala_name">
+                              name="masala_name" value="<?php echo $masala_name; ?>">
                           </div>
                         </div>
                          <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Short Description</b></label>
                           <div class="col-sm-9">
                             <input type="text" class="form-control"
-                              name="short_description">
+                              name="short_description" value="<?php echo $short_description; ?>">
                           </div>
                         </div>
                         <div class="form-group row">
@@ -146,6 +194,7 @@ if(isset($_GET['eid'])){
                             ?>
                               <option><?php echo $arr['categories'];?></option>
                             <?php }?>
+                            <option selected="selected"><?php echo $categories; ?></option>
                               
                             </select>
                           </div>
@@ -154,7 +203,7 @@ if(isset($_GET['eid'])){
                           <label class="col-sm-3 col-form-label"><b>Tags</b></label>
                           <div class="col-sm-9">
                             <input type="text" class="form-control"
-                              name="tags">
+                              name="tags" value="<?php echo $tags;?>">
                           </div>
                         </div>
                         <div class="form-group row">
@@ -164,19 +213,26 @@ if(isset($_GET['eid'])){
                               <option selected="selected">Select SKU</option>
                               <option>Applicable</option>
                               <option>N/A</option>
+                              <option selected="selected"><?php echo $sku?></option>
                             </select>
                           </div>
                         </div>
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Upload Image</b></label>
                           <div class="col-sm-9">
+                          <?php
+                            if(isset($_GET['eid'])){
+                              ?>
+                            <img src="dist/img/images/<?php echo $file; ?>" width="100" height="100">
+                            <input type="hidden" value="<?php echo $file; ?>" name="img">
+                            <?php }  ?>
                             <input type="file" class="form-control" name="file">
                           </div>
                         </div>
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Description</b></label>
                           <div class="col-sm-9">
-                          <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" name="description"></textarea> 
+                          <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" name="description"><?php echo $description;?></textarea> 
                           </div>
                         </div>
                       </div>
@@ -346,6 +402,7 @@ if(isset($_GET['eid'])){
       });
     });
   </script>
+  
 </body>
 
 </html>
