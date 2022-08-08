@@ -33,15 +33,6 @@ include('include/config.php');
 	
 	<script src="https://kit.fontawesome.com/467f9d214f.js" crossorigin="anonymous"></script>
 
-  <!-- <style>
-
-
-@media (max-width:768px) {
-  .footerAlign{
-    text-align: center !important;
-  }
-}
-  </style> -->
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -71,7 +62,7 @@ include('include/config.php');
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
               <li class="breadcrumb-item active">Dashboard</li>
             </ol>
           </div><!-- /.col -->
@@ -110,7 +101,7 @@ include('include/config.php');
                $count2=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">
-                <span class="info-box-text">Appointments</span>
+                <span class="info-box-text">Products</span>
                 <span class="info-box-number"><?php echo $count2; ?></span>
               </div>
               <!-- /.info-box-content -->
@@ -126,11 +117,11 @@ include('include/config.php');
             <div class="info-box mb-3">
               <span class="info-box-icon bg-success elevation-1"><i class="fa fa-check"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from products");
+              $query=mysqli_query($conn,"select * from add_categories");
                $count3=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">
-                <span class="info-box-text">Orders</span>
+                <span class="info-box-text">Categories</span>
                 <span class="info-box-number"><?php echo $count3; ?></span>
               </div>
               <!-- /.info-box-content -->
@@ -142,7 +133,7 @@ include('include/config.php');
             <div class="info-box mb-3">
               <span class="info-box-icon bg-warning elevation-1"><i class=" text-white fa fa-phone"></i></span>
               <?php
-              $query=mysqli_query($conn,"select * from products");
+              $query=mysqli_query($conn,"select * from contact_us");
                $count4=mysqli_num_rows($query);
                 ?>
               <div class="info-box-content">

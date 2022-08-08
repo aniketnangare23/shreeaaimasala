@@ -1,3 +1,7 @@
+<?php
+    include('../admin/include/config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -531,21 +535,25 @@
       </div>
 
       <div class="row">
+      <?php
+            $sql=mysqli_query($conn,"select * from products limit 3");   
+            while($arr=mysqli_fetch_array($sql)){
+            ?>
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-              <a href="product-details.html"><img src="assets/img/products/2.png" alt="product"></a>
+            <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="../admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
               <div class="ct-product-controls">
-                <a href="product-details.html" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
-              <h5 class="product-title"> <a href="product-details.php">Agro</a> </h5>
+            <h5 class="product-title"> <a href="product-details.php?id=<?php echo $arr['id'] ?>"><?php echo $arr['masala_name'];?></a> </h5>
             </div>
           </div>
         </div>
+        <?php } ?>
       </div>
-
     </div>
   </section>
   <!-- Products End -->
