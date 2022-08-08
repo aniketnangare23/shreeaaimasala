@@ -1,5 +1,5 @@
 <?php
-    include('../admin/include/config.php');
+    include('admin/include/config.php');
 ?>
 
 <!DOCTYPE html>
@@ -52,9 +52,6 @@
                     <a href="about-us.php">About Us</a>
                 </li>
                 <li class="menu-item">
-                    <a href="product-details.php">Product Details</a>
-                </li>
-                <li class="menu-item">
                     <a href="shop.php">Shop</a>
                 </li>
                 <li class="menu-item">
@@ -70,7 +67,7 @@
     <!-- Header End -->
 
   <!-- Subheader Start -->
-  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.webp')">
     <div class="absolute-subheader">
     <div class="container">
       <div class="subheader-inner">
@@ -91,20 +88,8 @@
 
   <section class="section section-padding extra-padding posts">
     <div class="container">
-
       <div class="row">
-      
         <div class="col-lg-12">
-
-          <!-- Toggle & Filter Start -->
-          <div class="filter-wrapper">
-            <div class="view-toggler">
-              <i class="fas fa-th toggle-grid active"></i>
-              <i class="fas fa-th-list toggle-list"></i>
-            </div>
-          </div>
-          <!-- Toggle & Filter End -->
-
           <div class="row">
             <!-- Product Start -->
             <?php
@@ -114,7 +99,7 @@
             <div class="col-md-4">
               <div class="ct-product">
                 <div class="ct-product-thumbnail">
-                  <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="../admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
+                  <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
                   <div class="ct-product-controls">
                     <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
                   </div>

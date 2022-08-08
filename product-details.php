@@ -1,5 +1,5 @@
 <?php
-    include('../admin/include/config.php');
+    include('admin/include/config.php');
 $id=$_GET['id'];
 ?>
 
@@ -116,7 +116,7 @@ $id=$_GET['id'];
     <!-- partial -->
     <!-- Aside (Mobile Navigation) -->
     <aside class="sigma_aside sigma_aside-left">
-        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo/LOGO.png" alt="logo"> </a>
         <div class="aside-scroll">
             <ul>
                 <li class="menu-item">
@@ -124,9 +124,6 @@ $id=$_GET['id'];
                 </li>
                 <li class="menu-item">
                     <a href="index.php">About Us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="product-details.php">Product Details</a>
                 </li>
                 <li class="menu-item">
                     <a href="shop.php">Shop</a>
@@ -144,7 +141,7 @@ $id=$_GET['id'];
     <!-- Header End -->
 
   <!-- Subheader Start -->
-  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.webp')">
     <div class="absolute-subheader">
     <div class="container">
       <div class="subheader-inner">
@@ -155,8 +152,8 @@ $id=$_GET['id'];
             <li class="breadcrumb-item active" aria-current="page">Product Details</li>
           </ol>
         </nav>
-        <img src="assets/img/veg/8.png" class="image-1" alt="img">
-        <img src="assets/img/veg/5.png" class="image-2" alt="img">
+        <img src="assets/img/veg/8.webp" class="image-1" alt="img">
+        <img src="assets/img/veg/5.webp" class="image-2" alt="img">
       </div>
     </div>
   </div>
@@ -175,7 +172,7 @@ $id=$_GET['id'];
 
           <!-- Main Thumb -->
           <div class="product-thumb">
-            <img src="../admin/dist/img/images/<?php echo $arr['file'] ?>" alt="detail">
+            <img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="detail">
           </div>
           <!-- /Main Thumb -->
 
@@ -258,45 +255,45 @@ $id=$_GET['id'];
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/2.png" alt="product"></a>
+              <a href="#"><img src="assets/img/products/2.webp" alt="product"></a>
               <div class="ct-product-controls">
                 <a href="#" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
               <h5 class="product-title"> <a href="#">Agro</a> </h5>
-              <p class="product-price custom-secondary">20.00$</p>
-              <p class="product-text">Agro always a good in tast, grab it  ....</p>
+              <!-- <p class="product-price custom-secondary">20.00$</p>
+              <p class="product-text">Agro always a good in tast, grab it  ....</p> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/6.png" alt="product"></a>
+              <a href="#"><img src="assets/img/products/6.webp" alt="product"></a>
               <div class="ct-product-controls">
                 <a href="#" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
               <h5 class="product-title"> <a href="#">Chilli Powder</a> </h5>
-              <p class="product-price custom-secondary">180.00$</p>
-              <p class="product-text">Chilli is addiction, you will love it . . .</p>
+              <!-- <p class="product-price custom-secondary">180.00$</p>
+              <p class="product-text">Chilli is addiction, you will love it . . .</p> -->
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/1.png" alt="product"></a>
+              <a href="#"><img src="assets/img/products/1.webp" alt="product"></a>
               <div class="ct-product-controls">
                 <a href="#" class="btn-custom secondary">Select Options <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
               <h5 class="product-title"> <a href="#">Clove</a> </h5>
-              <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-              <p class="product-text">Taste of spice , bring excitment to you...</p>
+              <!-- <p class="product-price custom-secondary">32.00$ - 48.00$</p>
+              <p class="product-text">Taste of spice , bring excitment to you...</p> -->
             </div>
           </div>
         </div>

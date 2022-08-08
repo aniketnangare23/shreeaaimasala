@@ -108,7 +108,7 @@
     <!-- partial -->
     <!-- Aside (Mobile Navigation) -->
     <aside class="sigma_aside sigma_aside-left">
-        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo/LOGO.png" alt="logo"> </a>
         <div class="aside-scroll">
             <ul>
                 <li class="menu-item">
@@ -116,9 +116,6 @@
                 </li>
                 <li class="menu-item">
                     <a href="about-us.php">About Us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="product-details.php">Product Details</a>
                 </li>
                 <li class="menu-item">
                     <a href="shop.php">Shop</a>
@@ -134,7 +131,7 @@
     <?php include("assets/include/header.php"); ?>
     <!-- Header End -->
     <!-- Subheader Start -->
-    <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+    <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.webp')">
         <div class="absolute-subheader">
             <div class="container">
                 <div class="subheader-inner">

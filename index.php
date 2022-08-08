@@ -1,5 +1,5 @@
 <?php
-    include('../admin/include/config.php');
+    include('admin/include/config.php');
 ?>
 
 <!DOCTYPE html>
@@ -116,7 +116,7 @@
     <!-- Aside (Mobile Navigation) -->
     <div class="sigma_aside-overlay aside-trigger-right"></div> 
     <aside class="sigma_aside sigma_aside-left">
-        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo/LOGO.png" alt="logo"> </a>
         <div class="aside-scroll">
             <ul>
                 <li class="menu-item">
@@ -124,9 +124,6 @@
                 </li>
                 <li class="menu-item">
                     <a href="about-us.php">About Us</a>
-                </li>
-                <li class="menu-item">
-                    <a href="product-details.php">Product Details</a>
                 </li>
                 <li class="menu-item">
                     <a href="shop.php">Shop</a>
@@ -145,7 +142,9 @@
   <!-- Banner Start -->
   <div class="banner banner-video dark-overlay">
     <video autoplay muted loop id="myVideo">
-      <source src="assets/vids/video-banner.mp4" type="video/mp4">
+      <!-- <source src="assets/vids/video-banner.mp4" type="video/mp4"> -->
+      <img src="assets/img/banner/2.webp" alt="">
+
     </video>
     <!-- Prev Arrow -->
     <i class="slider-prev fas fa-arrow-left slick-arrow"></i>
@@ -268,8 +267,8 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="about-wrapper">
-              <img src="assets/img/about-1.jpg" alt="image">
-              <img src="assets/img/about-2.jpg" class="image-2 parallax_scroll_down" alt="image">
+              <img src="assets/img/veg/about1.webp" alt="image">
+              <img src="assets/img/veg/about2.webp" class="image-2 parallax_scroll_down" alt="image">
             </div>
           </div>
           <div class="col-lg-6">
@@ -505,10 +504,9 @@
             <div class="cta-item-inner">
               <span class="custom-secondary">Generic</span>
               <h3>Spices From Around World!</h3>
-              <p>Entice yourself with delicious spices in your meal!</p>
               <a href="shop.php" class="btn-custom secondary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
-            <img src="assets/img/categories/png-1.png" alt="cta">
+            <img src="assets/img/categories/png-1.webp" alt="cta">
           </div>
         </div>
         <div class="col-lg-6">
@@ -516,10 +514,9 @@
             <div class="cta-item-inner">
               <span class="custom-primary">Arya</span>
               <h3>Find The Taste Of India!</h3>
-              <p>We supply all organic spice from farm ...</p>
               <a href="shop.php" class="btn-custom primary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
-            <img src="assets/img/categories/png-2.png" alt="cta">
+            <img src="assets/img/categories/png-2.webp" alt="cta">
           </div>
         </div>
       </div>
@@ -542,7 +539,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-            <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="../admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
+            <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
               <div class="ct-product-controls">
               <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>

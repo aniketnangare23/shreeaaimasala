@@ -4647,7 +4647,7 @@ td.quantity{
 
 .about-sec.style-3 .about-wrapper:before{
   content: "";
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
   width: 15px;
