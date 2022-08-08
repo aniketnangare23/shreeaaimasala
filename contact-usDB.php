@@ -1,5 +1,5 @@
 <?php
-    include('../admin/include/config.php');
+    include('admin/include/config.php');
     if(isset($_POST['submit']))
 {
     $name=$_POST['name'];
