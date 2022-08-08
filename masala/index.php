@@ -457,7 +457,7 @@
     <!-- Video Style 1 End -->
 
   <!-- Testimonials Start -->
-  <section class="section light-bg bg-cover" style="background-image:url('assets/img/bg/2.jpg')">
+  <section class="section light-bg bg-cover" style="background-image:url('assets/img/bg/2.webp')">
     <div class="container">
       <div class="section-title-wrap section-header text-center">
         <h2 class="title">Testimonials</h2>

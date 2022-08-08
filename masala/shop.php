@@ -42,7 +42,7 @@
     <!-- partial -->
     <!-- Aside (Mobile Navigation) -->
     <aside class="sigma_aside sigma_aside-left">
-        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo/LOGO.png" alt="logo"> </a>
         <div class="aside-scroll">
             <ul>
                 <li class="menu-item">
@@ -81,8 +81,8 @@
             <li class="breadcrumb-item active" aria-current="page">Shop</li>
           </ol>
         </nav>
-         <img src="assets/img/veg/8.png" class="image-1" alt="img">
-        <img src="assets/img/veg/5.png" class="image-2" alt="img">
+         <img src="assets/img/veg/8.webp" class="image-1" alt="img">
+        <img src="assets/img/veg/5.webp" class="image-2" alt="img">
       </div>
     </div>
   </div>

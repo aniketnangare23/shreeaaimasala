@@ -150,8 +150,8 @@
             <li class="breadcrumb-item active" aria-current="page">About Us</li>
           </ol>
         </nav>
-        <img src="assets/img/veg/8.png" class="image-1" alt="img">
-        <img src="assets/img/veg/5.png" class="image-2" alt="img">
+        <img src="assets/img/veg/8.webp" class="image-1" alt="img">
+        <img src="assets/img/veg/5.webp" class="image-2" alt="img">
       </div>
     </div>
   </div>
@@ -161,8 +161,8 @@
   <!-- About Us Start -->
   <section class="section extra-padding">
     <div class="imgs-wrapper">
-      <img src="assets/img/veg/6.png" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/9.png" alt="veg" class="d-none d-lg-block">
+      <img src="assets/img/veg/6.webp" alt="veg" class="d-none d-lg-block">
+      <img src="assets/img/veg/9.webp" alt="veg" class="d-none d-lg-block">
     </div>
     <div class="container">
 
@@ -191,7 +191,7 @@
               <p>Entice yourself with delicious spices in your meal!</p>
               <a href="shop.php" class="btn-custom secondary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
-            <img src="assets/img/categories/png-1.png" alt="cta">
+            <img src="assets/img/categories/png-1.webp" alt="cta">
           </div>
         </div>
         <div class="col-lg-6">
@@ -202,7 +202,7 @@
               <p>We supply all organic spice from farm ...</p>
               <a href="shop.php" class="btn-custom primary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
-            <img src="assets/img/categories/png-2.png" alt="cta">
+            <img src="assets/img/categories/png-2.webp" alt="cta">
           </div>
         </div>
       </div>
@@ -214,9 +214,9 @@
   <!-- About us Start -->
   <section class="section pt-0">
     <div class="imgs-wrapper-2">
-      <img src="assets/img/veg/3.png" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/5.png" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/8.png" alt="veg" class="d-none d-lg-block">
+      <img src="assets/img/veg/3.webp" alt="veg" class="d-none d-lg-block">
+      <img src="assets/img/veg/5.webp" alt="veg" class="d-none d-lg-block">
+      <img src="assets/img/veg/8.webp" alt="veg" class="d-none d-lg-block">
     </div>
     <div class="container">
 
