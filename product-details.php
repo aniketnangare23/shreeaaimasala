@@ -262,11 +262,11 @@ $id=$_GET['id'];
             <img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="detail">
               <!-- <a href="#"><img src="assets/img/products/2.webp" alt="product"></a> -->
               <div class="ct-product-controls">
-                <a href="#" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
-              <h5 class="product-title"> <a href="#"><?php echo $arr['masala_name'];?></a> </h5>
+              <h5 class="product-title"> <a href="product-details.php?id=<?php echo $arr['id'] ?>"><?php echo $arr['masala_name'];?></a> </h5>
             </div>
           </div>
         </div>

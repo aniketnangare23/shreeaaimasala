@@ -29,8 +29,6 @@
               <li> <a href="#">Payment Methods</a> </li>
               <li> <a href="#">Shipping Guide </a> </li>
               <li> <a href="#">Estimated Delievery Time</a> </li>
-              <li> <a href="#">Terms Of Use</a> </li>
-              <li> <a href="#">Payment Methods</a> </li>
             </ul>
 
           </div>

@@ -2611,9 +2611,9 @@ table img{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
 }
 .ct-preloader.hidden{
   opacity: 0;
