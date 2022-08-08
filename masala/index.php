@@ -315,7 +315,7 @@
               </div>
             </div>
             <div class="about-btn">
-              <a href="shop.php" class="btn-custom primary shadow-none" tabindex="0" target="_blank">Discover more <i class="fas fa-arrow-right"></i> </a>
+              <a href="shop.php" class="btn-custom primary shadow-none" tabindex="0">Discover more <i class="fas fa-arrow-right"></i> </a>
             </div>
           </div>
         </div>

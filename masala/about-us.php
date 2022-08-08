@@ -172,7 +172,7 @@
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
           a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
         </p>
-        <a href="contact-us.php" class="btn-custom primary" target="_blank"> Contact Me <i class="fas fa-arrow-right"></i> </a>
+        <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
       </div>
 
     </div>
@@ -189,7 +189,7 @@
               <span class="custom-secondary">Generic</span>
               <h3>World Of Spices</h3>
               <p>Entice yourself with delicious spices in your meal!</p>
-              <a href="shop.php" class="btn-custom secondary" target="_blank" > View Spicess <i class="fas fa-arrow-right"></i> </a>
+              <a href="shop.php" class="btn-custom secondary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
             <img src="assets/img/categories/png-1.png" alt="cta">
           </div>
@@ -200,7 +200,7 @@
               <span class="custom-primary">Arya</span>
               <h3>World Of Taste !</h3>
               <p>We supply all organic spice from farm ...</p>
-              <a href="shop.php" class="btn-custom primary" target="_blank"> View Spicess <i class="fas fa-arrow-right"></i> </a>
+              <a href="shop.php" class="btn-custom primary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
             </div>
             <img src="assets/img/categories/png-2.png" alt="cta">
           </div>
