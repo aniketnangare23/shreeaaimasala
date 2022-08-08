@@ -252,51 +252,25 @@ $id=$_GET['id'];
       <h4>Related Products </h4>
       
       <div class="row">
+      <?php
+            $sql=mysqli_query($conn,"select * from products limit 3");   
+            while($arr=mysqli_fetch_array($sql)){
+            ?>
         <div class="col-lg-4 col-md-6">
           <div class="ct-product">
             <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/2.webp" alt="product"></a>
+            <img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="detail">
+              <!-- <a href="#"><img src="assets/img/products/2.webp" alt="product"></a> -->
               <div class="ct-product-controls">
                 <a href="#" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
-              <h5 class="product-title"> <a href="#">Agro</a> </h5>
-              <!-- <p class="product-price custom-secondary">20.00$</p>
-              <p class="product-text">Agro always a good in tast, grab it  ....</p> -->
+              <h5 class="product-title"> <a href="#"><?php echo $arr['masala_name'];?></a> </h5>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="ct-product">
-            <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/6.webp" alt="product"></a>
-              <div class="ct-product-controls">
-                <a href="#" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div class="ct-product-body">
-              <h5 class="product-title"> <a href="#">Chilli Powder</a> </h5>
-              <!-- <p class="product-price custom-secondary">180.00$</p>
-              <p class="product-text">Chilli is addiction, you will love it . . .</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="ct-product">
-            <div class="ct-product-thumbnail">
-              <a href="#"><img src="assets/img/products/1.webp" alt="product"></a>
-              <div class="ct-product-controls">
-                <a href="#" class="btn-custom secondary">Select Options <i class="fas fa-arrow-right"></i> </a>
-              </div>
-            </div>
-            <div class="ct-product-body">
-              <h5 class="product-title"> <a href="#">Clove</a> </h5>
-              <!-- <p class="product-price custom-secondary">32.00$ - 48.00$</p>
-              <p class="product-text">Taste of spice , bring excitment to you...</p> -->
-            </div>
-          </div>
-        </div>
+        <?php } ?>
       </div>
     </div>
   </section>
