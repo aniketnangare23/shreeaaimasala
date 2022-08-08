@@ -32,7 +32,7 @@
         <nav class="navbar">
             <div class="container-fluid">
                 <!-- Logo -->
-                <a class="navbar-brand d-lg-none" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+                <a class="navbar-brand d-lg-none" href="index.php"> <img src="assets/img/logo/LOGO.webp" alt="logo"> </a>
                 <!-- Menu -->
                 <div class="header-control-left">
                     <div class="aside-toggler aside-trigger-right desktop-toggler">
@@ -50,7 +50,7 @@
                     </li>
                     <li class="logo-wrapper">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="index.php"> <img src="assets/img/logo/LOGO.webp" alt="logo"> </a>
                     </li>
                     <li class="menu-item">
                         <a href="about-us.php">About Us</a>
