@@ -1,7 +1,6 @@
-<!-- 
 <?php
 session_start();
-include("include/config.php");
+include("../assets/include/config.php");
 if(isset($_POST['login'])){
 $email=$_POST['email'];
 $password1=$_POST['password'];
@@ -64,7 +63,6 @@ background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 }
-
 @media (min-width: 768px) {
 .gradient-form {
 height: 100vh !important;
@@ -90,7 +88,7 @@ border-bottom-right-radius: .3rem;
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                  <img src="../assets\img\webp\footerlogo.png"
+                  <img src="../assets\img\logo\LOGO.png"
                     style="width:60%;" alt="logo">
                     <!-- <h6>UNIQUE PATHOLOGY</h6> -->
                 </div><br>
@@ -111,7 +109,7 @@ border-bottom-right-radius: .3rem;
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-block mb-3" type="login" name="login" id="login" value="login" style="background:#4ab242; color:white">Login</button>
+                    <button class="btn btn-block mb-3" type="login" name="login" id="login" value="login" style="background:#f73614; color:white">Login</button>
                     <br>
                     <a class="text-muted" href="forgetpassword.php">Forgot password?</a>
                   </div>
@@ -133,4 +131,4 @@ border-bottom-right-radius: .3rem;
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
 ></script>
-</html> -->
+</html>

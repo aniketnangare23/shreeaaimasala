@@ -1,5 +1,5 @@
 <?php
-    include('admin/include/config.php');
+    include('assets/include/config.php');
     if(isset($_POST['submit']))
 {
     $name=$_POST['name'];

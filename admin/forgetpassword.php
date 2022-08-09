@@ -1,5 +1,5 @@
 <?php
-include("include/config.php");
+include("../assets/include/config.php");
 if(isset($_POST['forget'])){
   $Email=$_POST['email'];
 
@@ -95,7 +95,7 @@ echo "not done";
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Forget Password-Unique Pathalogy</title>
+    <title>Forget Password-Shree Aai Foods</title>
       <!-- Favicons -->
    <link href="../assets/img/favicon.png" rel="icon">
         <!-- Font Awesome -->
@@ -122,7 +122,7 @@ background: #fccb90;
 background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right,#4ab242 ,#00B712,#63D471,#80FF72);
+background: linear-gradient(to right,#eb3434 ,#eb3434,#ffc800,#ffea00);
 }
 
 @media (min-width: 768px) {
@@ -150,9 +150,8 @@ border-bottom-right-radius: .3rem;
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                  <img src="../assets\img\webp\footerlogo.png"
+                  <img src="../assets\img\logo\LOGO.png"
                     style="width: 60%;" alt="logo">
-                    <!-- <h6>SACHIN ENTERPRISE</h6> -->
                 </div><br>
 
                 <form method="POST">
@@ -166,7 +165,7 @@ border-bottom-right-radius: .3rem;
 
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-block fa-lg  mb-3" name="forget"type="submit" style="background:#4ab242; color:white;">Submit</button>
+                    <button class="btn btn-block fa-lg  mb-3" name="forget"type="submit" style="background:#f73614; color:white;">Submit</button>
                     <a class="text-muted" href="adminlogin.php">Login Your Account</a>
                   </div>
 
@@ -196,7 +195,5 @@ border-bottom-right-radius: .3rem;
 </body>
 <!-- MDB -->
 <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
-></script>
+  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
 </html>

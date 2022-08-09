@@ -4,11 +4,13 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
   }
 
-// session_start();
+  
 
-// $id=$_SESSION['id'];
-// if(!isset($_SESSION['id']))
-// {
-//   header("location:adminlogin.php");
-// }
+session_start();
+
+$id=$_SESSION['id'];
+if(!isset($_SESSION['id']))
+{                                                                                       
+  header("location:adminlogin.php");
+}
 ?>

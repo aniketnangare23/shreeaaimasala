@@ -1,5 +1,5 @@
 <?php
-    include('admin/include/config.php');
+    include('assets/include/config.php');
 ?>
 
 <!DOCTYPE html>
