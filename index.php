@@ -140,12 +140,12 @@
     <!-- Header End -->
 
   <!-- Banner Start -->
-  <div class="banner">
+  <div class="banner" style="margin-bottom:-130px">
     <!-- <video autoplay muted loop id="myVideo"> -->
       <!-- <source src="assets/vids/video-banner.mp4" type="video/mp4"> -->
       
     <!-- </video> -->
-    <img src="assets/img/banner/3.webp" alt="">
+    <img src="assets/img/banner/3.webp" class="ibanner" alt="">
     <!-- Prev Arrow -->
     <i class="slider-prev fas fa-arrow-left slick-arrow"></i>
     <div class="container">
@@ -154,22 +154,22 @@
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white">Spices Brings Taste To Your   <span class="custom-primary"> Kitchen </span> </h1>
-            <p class="subtitle text-white">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none">Visit Spices Bazzar <i class="fas fa-arrow-right"></i> </a>
+            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i> </a>
           </div>
         </div>
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white">Get All  <span class="custom-primary"> Spices </span> Here </h1>
-            <p class="subtitle text-white">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="#" class="btn-custom primary shadow-none">Contact Me <i class="fas fa-arrow-right"></i></a>
+            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
+            <a href="#" class="btn-custom primary shadow-none ibtn">Contact Me <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white"><span class="custom-primary">Spices </span> From Authentic Source , Grab It</h1>
-            <p class="subtitle text-white">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="#" class="btn-custom primary shadow-none">Visit My Blog <i class="fas fa-arrow-right"></i></a>
+            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
+            <a href="#" class="btn-custom primary shadow-none ibtn">Visit My Blog <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>

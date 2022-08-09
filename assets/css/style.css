@@ -651,7 +651,7 @@ h6 {
 }
 p {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 30px;
   margin-bottom: 15px;
   color: #515151;
 }
@@ -684,7 +684,7 @@ ol,
 ul {
   list-style: none;
   padding: 0;
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 ul li,
@@ -2293,7 +2293,7 @@ table img{
   font-size: 62px;
   line-height: 80px;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .banner .subtitle{
   color: #848486;
@@ -2304,7 +2304,7 @@ table img{
 .banner-inner{
   max-width: 700px;
   margin: 0 auto;
-  padding-top: 180px;
+  padding-top: 0px;
 }
 
 .banner .slick-arrow{
@@ -2373,7 +2373,8 @@ table img{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 60px;
+  padding-top: 77px;
+  margin-bottom:7px;
 }
 
 /* 4.1. Image Banner */
@@ -3870,7 +3871,7 @@ table img{
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 .slick-dots li{
   margin: 0 5px;
@@ -5532,8 +5533,8 @@ align-items: center;
   }
   .banner .title,
   .banner.banner-carousel .title{
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .banner .subtitle,
   .banner.banner-carousel .subtitle{
@@ -5828,6 +5829,21 @@ align-items: center;
     width: 80px;
      margin-bottom: 22px;
   }
-
-
+ /* index banner btn  */
+ @media(max-width: 768px){
+   .ibtn{
+    font-size:10px;
+    padding: 3px 9px;
+  }
+}
+@media(max-width: 768px){
+  .icontent{
+  line-height: 20px;
+ }
+}
+@media(max-width: 768px){
+  .ibanner{
+ height:50vh;
+}
+}
 }
