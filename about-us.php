@@ -136,7 +136,7 @@
     <!-- Header End -->
 
   <!-- Subheader Start -->
-  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.webp')">
+  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/banner/subheader.webp')">
     <div class="absolute-subheader">
     <div class="container">
       <div class="subheader-inner">

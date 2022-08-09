@@ -500,7 +500,7 @@ hr{
 }
 img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 .cursor-pointer {
@@ -2037,7 +2037,7 @@ table img{
 }
 .footer-widget ul li a {
   position: relative;
-  display: block;
+  display: inline-flex;
   -webkit-transform: translateX(-15px);
       -ms-transform: translateX(-15px);
           transform: translateX(-15px);
@@ -2273,7 +2273,7 @@ table img{
 ========================*/
 
 .can-sticky + .banner{
-  padding: 180px 0 120px;
+  /* padding: 0 0 120px; */
 }
 .banner{
   position: relative;
@@ -4729,7 +4729,7 @@ align-items: center;
 /* Why Us 2 */
 
 .why-us-2{
-  background-image: url("../img/why-us-bg.jpg");
+  background-image: url("../img/banner/why-us-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4955,7 +4955,7 @@ align-items: center;
 /* appointment sec */
 
 .appointment-sec{
-  background-image: url("../img/banner/6.jpg");
+  background-image: url("../img/banner/6.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

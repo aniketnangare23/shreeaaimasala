@@ -140,12 +140,12 @@
     <!-- Header End -->
 
   <!-- Banner Start -->
-  <div class="banner banner-video dark-overlay">
-    <video autoplay muted loop id="myVideo">
+  <div class="banner">
+    <!-- <video autoplay muted loop id="myVideo"> -->
       <!-- <source src="assets/vids/video-banner.mp4" type="video/mp4"> -->
-      <img src="assets/img/banner/2.webp" alt="">
-
-    </video>
+      
+    <!-- </video> -->
+    <img src="assets/img/banner/3.webp" alt="">
     <!-- Prev Arrow -->
     <i class="slider-prev fas fa-arrow-left slick-arrow"></i>
     <div class="container">
@@ -155,7 +155,7 @@
           <div class="banner-inner">
             <h1 class="title text-white">Spices Brings Taste To Your   <span class="custom-primary"> Kitchen </span> </h1>
             <p class="subtitle text-white">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="#" class="btn-custom primary shadow-none">Visit Spices Bazzar <i class="fas fa-arrow-right"></i> </a>
+            <a href="shop.php" class="btn-custom primary shadow-none">Visit Spices Bazzar <i class="fas fa-arrow-right"></i> </a>
           </div>
         </div>
         <div class="banner-item text-center">
@@ -440,7 +440,7 @@
     <!-- why choose us End -->
 
     <!-- Video Style 1 Start -->
-    <section class="section video-style-1 bg-cover bg-center dark-overlay dark-overlay-2"  style="background-image:url('assets/img/video.jpg')">
+    <section class="section video-style-1 bg-cover bg-center dark-overlay dark-overlay-2"  style="background-image:url('assets/img/banner/video.webp')">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
