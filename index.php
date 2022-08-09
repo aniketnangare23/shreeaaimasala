@@ -162,14 +162,14 @@
           <div class="banner-inner">
             <h1 class="title text-white">Get All  <span class="custom-primary"> Spices </span> Here </h1>
             <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="#" class="btn-custom primary shadow-none ibtn">Contact Me <i class="fas fa-arrow-right"></i></a>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Contact Me <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white"><span class="custom-primary">Spices </span> From Authentic Source , Grab It</h1>
             <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="#" class="btn-custom primary shadow-none ibtn">Visit My Blog <i class="fas fa-arrow-right"></i></a>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit My Blog <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
