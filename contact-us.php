@@ -1,3 +1,10 @@
+<?php
+    include('assets/include/config.php');
+   
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -198,7 +205,7 @@
                 <p class="subtitle">
                 </p>
             </div>
-            <form action="contact-usDB.php" method="post">
+            <form method="post">
                 <div class="row">
                     <div class="form-group col-lg-6">
                         <input type="text" placeholder="Full Name" class="form-control" name="name" value=""  required>
@@ -242,6 +249,32 @@
     <script src="assets/js/mf_form.js"></script>
     <!-- Organicz Scripts -->
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <?php
+     if(isset($_POST['submit']))
+{
+    $name=$_POST['name'];
+    $phone=$_POST['phone'];
+    $email=$_POST['email'];
+    $subject=$_POST['subject'];
+    $message=$_POST['message'];
+
+    $sql=mysqli_query($conn, "INSERT INTO `contact_us`(`name`,`phone`,`email`,`subject`,`message`) VALUES('$name','$phone','$email','$subject','$message')");
+
+    if( $sql==1){
+        ?>
+        <script>
+        swal("Registration Successfully !", "You clicked the button!", "success")
+    </script>
+        <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+}
+?>
 </body>
 
 
