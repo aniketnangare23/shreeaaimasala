@@ -1,4 +1,4 @@
-<!-- Footer Start -->
+<!-- Footer Start --> 
 <footer class="ct-footer footer-3 footer-dark">
   <div class="container">
     <div class="row">
@@ -6,8 +6,12 @@
         <div class="row">
           <div class="col-md-5 col-sm-6 footer-widget">
             <img src="assets/img/logo/footer_logo.png" alt="logo" style="height:100px;">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, eligendi?</p>
-               <a href="https://wa.me/+919819164482" target="_blank"> <i class="fab fa-whatsapp" style="font-size:35px; color:red;"></i></a>
+            <p>Everest is one of the best masala brands in India. They are known for their quality and trust of various customers around the world.</p>
+            
+                <a href="https://wa.me/+919819164482" target="_blank">
+                 <i class="fab fa-whatsapp" style="font-size:35px; color:red"></i>
+                </a>
+               
           </div>
           <div class="col-md-3 col-sm-6 footer-widget">
             <h5 class="widget-title">Spicess</h5>
