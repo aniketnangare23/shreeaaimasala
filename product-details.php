@@ -168,7 +168,7 @@ $id=$_GET['id'];
             $sql=mysqli_query($conn,"select * from products where id='$id'");   
             while($arr=mysqli_fetch_array($sql)){
             ?>
-        <div class="col-lg-3 col-md-5">
+        <div class="col-lg-6 col-md-6">
 
           <!-- Main Thumb -->
           <div class="product-thumb">
@@ -177,7 +177,7 @@ $id=$_GET['id'];
           <!-- /Main Thumb -->
 
         </div>
-        <div class="col-lg-8 col-md-7">
+        <div class="col-lg-6 col-md-6">
           <div class="product-content">
 
             <!-- Product Title -->
@@ -224,25 +224,6 @@ $id=$_GET['id'];
         </div>
         <?php } ?>
       </div>
-      
-      <!-- Additional Information -->
-      <!-- <div class="product-additional-info">
-        <ul class="nav" id="bordered-tab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="tab-product-desc-tab" data-toggle="pill" href="#tab-product-desc" role="tab" aria-controls="tab-product-desc" aria-selected="true">Description</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="bordered-tabContent">
-          <div class="tab-pane fade show active" id="tab-product-desc" role="tabpanel" aria-labelledby="tab-product-desc-tab">
-            <h4><?php echo $arr['description'];?></h4>
-            
-          </div>
-            
-          </div>
-        </div>
-      </div> -->
-      <!-- /Additional Information -->
-      
     </div>
   </section>
 

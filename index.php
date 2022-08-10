@@ -185,74 +185,74 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-spices"></i>
-              <h5>Agro</h5>
-              <span>17 Spicess</span>
+              <h5>Special Masala</h5>
+              <!-- <span>17 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-ginger"></i>
-              <h5>Turmeric</h5>
-              <span>87 Spicess</span>
+              <h5>Malwani Masala</h5>
+              <!-- <span>87 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-spices-1"></i>
-              <h5>Seasonal Agro</h5>
-              <span>36 Spicess</span>
+              <h5>Goda Masala</h5>
+              <!-- <span>36 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-spices-2"></i>
-              <h5>Arya</h5>
-              <span>42 Spicess</span>
+              <h5>Paneer Masala</h5>
+              <!-- <span>42 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-spices-3"></i>
               <h5>Masalas Garam</h5>
-              <span>55 Spicess</span>
+              <!-- <span>55 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-anise"></i>
-              <h5>Generic</h5>
-              <span>45 Spicess</span>
+              <h5>Sambar Masala</h5>
+              <!-- <span>45 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-herb"></i>
-              <h5>Spicy & Herbs</h5>
-              <span>13 Spicess</span>
+              <h5>Mutton Masala</h5>
+              <!-- <span>13 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a href="#" class="ct-category">
+          <a class="ct-category">
             <div class="ct-category-icon">
               <i class="flaticon-condiment"></i>
-              <h5>Generic</h5>
-              <span>21 Spicess</span>
+              <h5>Egg Curry Masala</h5>
+              <!-- <span>21 Spicess</span> -->
             </div>
           </a>
         </div>
