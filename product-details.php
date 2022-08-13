@@ -26,7 +26,7 @@ $id=$_GET['id'];
   <!-- Organicz Style sheet -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\img\favicon\favicon.ico">
 
 </head>
 

@@ -59,7 +59,7 @@
         </div>
         <div class="col-lg-6 footer-widget pb-0 text-center text-lg-right">
           <div class="payment-image">
-            <p class="m-0">Designed by <a href="http://tectignis.in" target="_blank">Tectignis IT Solution</a></p>
+            <p class="m-0">Designed by <a href="http://tectignis.in" target="_blank">Tectignis IT Solutions</a></p>
 
           </div>
         </div>
