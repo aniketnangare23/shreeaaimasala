@@ -206,13 +206,6 @@ $id=$_GET['id'];
                   <a href="#">Kitchen Ware</a> -->
                 </div>
               </li>
-              <li>
-                <span>SKU: </span>
-                <div class="product-meta-item">
-                  <span><?php echo $arr['sku'];?></span>
-                </div>
-              </li>
-              
               <div class="product-meta-item">
                   <label>Description:</label> <br>
                 <span><?php echo $arr['description'];?></span>

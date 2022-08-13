@@ -6,7 +6,7 @@ $masala_name=$_POST['masala_name'];
 $short_description=$_POST['short_description'];
 $categories=$_POST['categories'];
 $tags=$_POST['tags'];
-$sku=$_POST['sku'];
+// $sku=$_POST['sku'];
 $description=$_POST['description'];
 $file=$_FILES['file']['name'];
 $tmp_name = $_FILES['file']['tmp_name']; 
@@ -19,17 +19,17 @@ $filedet=$_POST['img'];
     $id=$_GET['eid'];
     $dnk = $_POST['portImage'];
     
-    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`sku`='$sku',`file`='$filedet',`description`='$description' WHERE id='$id'");    
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`file`='$filedet',`description`='$description' WHERE id='$id'");    
     }
    
   else if(!empty($_FILES['file']['tmp_name']) && ($_POST['img']) || !empty($_FILES['file']['tmp_name']) && (empty($_POST['img']) && ($_GET['eid']))){
     $id=$_GET['eid'];
 move_uploaded_file($tmp_name, $loc);
-    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`sku`='$sku',`file`='$file',`description`='$description' WHERE id='$id'");    
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`file`='$file',`description`='$description' WHERE id='$id'");    
     }else{
 
 move_uploaded_file($tmp_name, $loc);
-$sql=mysqli_query($conn,"INSERT INTO `products`(`masala_name`, `short_description`, `categories`, `tags`, `sku`, `file`, `description`) VALUES ('$masala_name','$short_description','$categories','$tags','$sku','$file','$description')");}
+$sql=mysqli_query($conn,"INSERT INTO `products`(`masala_name`, `short_description`, `categories`, `tags`,`file`, `description`) VALUES ('$masala_name','$short_description','$categories','$tags','$file','$description')");}
   
   if($sql==1){
      header("location:products.php");
@@ -54,7 +54,7 @@ $masala_name='';
 $short_description='';
 $categories='';
 $tags='';
-$sku='';
+// $sku='';
 $file='';
 $description='';
 if(isset($_GET['eid'])){
@@ -64,7 +64,7 @@ if(isset($_GET['eid'])){
   $short_description=$row['short_description'];
   $categories=$row['categories'];
   $tags=$row['tags'];
-  $sku=$row['sku'];
+  // $sku=$row['sku'];
   $file=$row['file'];
   $description=$row['description'];
 }
@@ -233,17 +233,17 @@ if(isset($_GET['eid'])){
                               name="tags" value="<?php echo $tags;?>">
                           </div>
                         </div>
-                        <div class="form-group row">
+                        <!-- <div class="form-group row">
                         <label class="col-sm-3 col-form-label">SKU</label>
                         <div class="col-sm-9">
                             <select class="form-control select2" style="width: 100%;" name="sku">
                               <option selected="selected">Select SKU</option>
                               <option>Applicable</option>
                               <option>N/A</option>
-                              <option selected="selected"><?php echo $sku?></option>
+                              <option selected="selected"></option>
                             </select>
                           </div>
-                        </div>
+                        </div> -->
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Upload Image</b></label>
                           <div class="col-sm-9">
@@ -292,7 +292,6 @@ if(isset($_GET['eid'])){
                          <th>Short Description</th>
                           <th>categories</th>
                           <th>Tags</th>
-                          <th>SKU</th>
                           <th>Image</th>
                           <th>Description</th>
                           <th>Action</th>
@@ -318,9 +317,6 @@ if(isset($_GET['eid'])){
                           </td>
                           <td>
                             <?php echo $row["tags"]; ?>
-                          </td>
-                          <td>
-                            <?php echo $row["sku"]; ?>
                           </td>
                           <td><img src="dist/img/images/<?php echo $row["file"]; ?>" ></td>
                           <td>
