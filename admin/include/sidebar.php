@@ -41,7 +41,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
              </a>
            </li>
             <li class="nav-item">
-                  <a href="Contact_us.php" class="nav-link <?= $page == 'contact_us.php' ? 'active':'' ?>">
+                  <a href="contact_us.php" class="nav-link <?= $page == 'contact_us.php' ? 'active':'' ?>">
                   <i class="nav-icon fa-solid fa-phone text-red"></i>
                     <p>
                  Contact Us
