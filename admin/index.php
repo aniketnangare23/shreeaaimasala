@@ -8,7 +8,7 @@ include('include/config.php');
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin | Index</title>
   <!-- Favicons -->
-  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/favicon/favicon.ico" rel="icon">
   
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">

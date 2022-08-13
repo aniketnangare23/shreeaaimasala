@@ -26,7 +26,7 @@
     <!-- Organicz Style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets\img\favicon\favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\img\logo\footer_logo.png">
     <script src="../../../../../www.google.com/recaptcha/apifae7.js?render=6LceXdwUAAAAAM624k2Zezhs-jnmdJE8hjmhRMBh"></script>
 </head>
 
