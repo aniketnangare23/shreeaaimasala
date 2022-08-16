@@ -1,12 +1,12 @@
  <!-- Header Start -->
  <header class="main-header header-1 can-sticky">
      <!-- Topbar -->
-     <div class="topbar">
+     <div class="topbar" style="height:40px">
          <div class="container-fluid">
              <div class="row">
                  <div class="col-md-8">
-                     <ul class="left-side">
-                         <li>
+                     <ul>
+                         <li style="margin-top:-1px">
                              <a href="mailto:shreeaaipratishthan@gmail.com">
                                  <i class="fas fa-envelope"></i>
                                  shreeaaipratishthan@gmail.com
@@ -14,19 +14,15 @@
                          </li>
                      </ul>
                  </div>
-                 <div class="col-md-2">
-                     <ul>
-                         <li>
+                 <div class="col-md-4">
+                     <ul class="d-flex" style="margin-left:80px">
+                         <li style="margin-top:-2px;">
                              <a href="tel: +919819960523">
                                  <i class="fa fa-phone" style="transform:rotate(90deg)"></i>
                                  +91 9819960523
                              </a>
                          </li>
-                     </ul>
-                 </div>
-                 <div class="col-md-2">
-                     <ul>
-                         <li>
+                         <li style="margin-top:-1px; margin-left:15px">
                              <a href="https://wa.me/+919819164482" target="_blank">
                                  <i class="fab fa-whatsapp"></i>
                                  +91 9819164482
