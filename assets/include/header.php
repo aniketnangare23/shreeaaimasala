@@ -15,7 +15,7 @@
                      </ul>
                  </div>
                  <div class="col-md-4">
-                     <ul class="d-flex" style="margin-left:80px">
+                     <ul class="d-flex" style="margin-left:110px">
                          <li style="margin-top:-2px;">
                              <a href="tel: +919819960523">
                                  <i class="fa fa-phone" style="transform:rotate(90deg)"></i>
