@@ -6,8 +6,7 @@
         <div class="row">
           <div class="col-md-5 col-sm-6 footer-widget">
             <img src="assets/img/logo/footer_logo.png" alt="logo" style="height:100px;">
-            <p>Everest is one of the best masala brands in India. They are known for their quality and trust of various customers around the world.</p>
-            
+            <p>The perfect balance of tradition with technology, Shree Aai FOODS is a leading name in the of spices.Yes! We’re the best at what we do. Experience the best.</p>
                 <a href="https://wa.me/+919819164482" target="_blank">
                  <i class="fab fa-whatsapp" style="font-size:35px; color:red"></i>
                 </a>
@@ -25,9 +24,9 @@
           <div class="col-md-3 col-sm-6 footer-widget">
             <h5 class="widget-title">Legal</h5>
             <ul>
-              <li> <a href="#">Privacy Policy</a> </li>
-              <li> <a href="#">Refund Policy</a> </li>
-              <li> <a href="#">Terms & Conditions</a> </li>
+              <li> <a href="privacy-policy.php">Privacy Policy</a> </li>
+              <li> <a href="refund-policy.php">Refund Policy</a> </li>
+              <li> <a href="t&c.php">Terms & Conditions</a> </li>
             </ul>
 
           </div>

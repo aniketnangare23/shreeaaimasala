@@ -37,82 +37,6 @@
     <img src="assets/img/preloader.svg" alt="preloader">
   </div>
   <!-- Preloader End -->
-<!-- partial:partia/__sidenav.html -->
-    <!-- <aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg">
-        <div class="sidebar">
-            <div class="sidebar-widget widget-logo">
-                <img src="assets/img/logo.png" class="mb-30" alt="img">
-                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
-            </div> -->
-            <!-- Instagram Start -->
-            <!-- <div class="sidebar-widget widget-ig">
-                <h5 class="widget-title">Instagram</h5>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/7.jpg" alt="ig">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/8.jpg" alt="ig">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/9.jpg" alt="ig">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/10.jpg" alt="ig">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/11.jpg" alt="ig">
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                        <a href="#" class="sigma_ig-item">
-                            <img src="assets/img/ig/12.jpg" alt="ig">
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Instagram End -->
-            <!-- Social Media Start -->
-            <!-- <div class="sidebar-widget">
-                <h5 class="widget-title">Follow Us</h5>
-                <div class="sigma_post-share">
-                    <ul class="sigma_sm square light">
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
-            <!-- Social Media End -->
-        <!-- </div>
-    </aside>-->
-    <!-- partial -->
     <!-- Aside (Mobile Navigation) -->
     <div class="sigma_aside-overlay aside-trigger-right"></div> 
     <aside class="sigma_aside sigma_aside-left">
@@ -162,14 +86,14 @@
           <div class="banner-inner">
             <h1 class="title text-white">Get All  <span class="custom-primary"> Spices </span> Here </h1>
             <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Contact Me <i class="fas fa-arrow-right"></i></a>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white"><span class="custom-primary">Spices </span> From Authentic Source , Grab It</h1>
             <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit My Blog <i class="fas fa-arrow-right"></i></a>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -276,7 +200,7 @@
               <h2 class="title">We Have  <span class="custom-primary">35 Years </span> Of Experience </h2>
               <h3 class="subtitle">We Provide The Best Spices in The Market.</h3>
               <p class="subtitle mb-0">
-                Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been the industry's standard dummy text ever.
+              Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value.
               </p>
             </div>
             <div class="about-content">
@@ -467,21 +391,17 @@
           <div class="ct-testimonial-item">
             <div class="ct-testimonial-item-inner">
               <i class="flaticon-left-quote"></i>
-              <span>Johny White</span>
+              <span>Vedant Naidu</span>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-              </p>
+              Shree Aai FOODS (P) Ltd. Is truly a leader in Turmeric and all range of spices and spice blends. NAF’s quality and freshness, and their creativity with blends and the introduction of new flavors are unparalleled. Their infrastructure for Retail Private Manufacturing, packaging and Labelling is huge and as a wholesale client I would wholeheartedly recommend NAF Spices as a supplier. Their level of professionalism and customer service is consistent regardless of whether my orders were 200kgs or 2 tons.              </p>
             </div>
           </div>
           <div class="ct-testimonial-item">
             <div class="ct-testimonial-item-inner">
               <i class="flaticon-left-quote"></i>
-              <span>Brian Masalaz</span>
+              <span>Sarvesh Hiwale</span>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-              </p>
+              Shree Aai FOODS products are really outstanding and have been carefully crafted to provide the right flavors and consistency to the dishes. We are really happy with the quality of the products.</p>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shree Aai Foods - About </title>
+  <title>Shree Aai Foods - Refund Policy </title>
 
   <!-- Vendor Stylesheets -->
   <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
@@ -140,11 +140,11 @@
     <div class="absolute-subheader">
     <div class="container">
       <div class="subheader-inner">
-        <h1>About Us</h1>
+        <h1>Refund Policy</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            <li class="breadcrumb-item active" aria-current="page">Refund Policy</li>
           </ol>
         </nav>
         <img src="assets/img/veg/8.webp" class="image-1" alt="img">
@@ -157,16 +157,12 @@
 
   <!-- About Us Start -->
   <section class="section extra-padding">
-    <div class="imgs-wrapper">
-      <img src="assets/img/veg/6.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/9.webp" alt="veg" class="d-none d-lg-block">
-    </div>
     <div class="container">
 
       <div class="section-title-wrap text-center">
-        <h2 class="title">  Spices for <span class="custom-primary">5 Years</span> a hobbiest for 30</h2>
+        <h3 class="title"><span class="custom-primary">Refund</span> Policy</h3>
         <p class="subtitle">
-        Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value. </p>
+        We initiate the refund within 2 working days of receiving the product at our centre in case of Returns. In case of cancellations, if the product is not shipped, we initiate the refund immediately.</p>
         <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
       </div>
 
@@ -174,78 +170,6 @@
   </section>
   <!-- About Us End -->
 
-  <!-- CTA Start -->
-  <section class="section section-padding pt-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="cta-item item-1">
-            <div class="cta-item-inner">
-              <span class="custom-secondary">Generic</span>
-              <h3>World Of Spices</h3>
-              <a href="shop.php" class="btn-custom secondary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
-            </div>
-            <img src="assets/img/categories/png-1.webp" alt="cta">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="cta-item item-2">
-            <div class="cta-item-inner">
-              <span class="custom-primary">Arya</span>
-              <h3>World Of Taste !</h3>
-              <a href="shop.php" class="btn-custom primary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
-            </div>
-            <img src="assets/img/categories/png-2.webp" alt="cta">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CTA End -->
-
-
-  <!-- About us Start -->
-  <section class="section pt-0">
-    <div class="imgs-wrapper-2">
-      <img src="assets/img/veg/3.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/5.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/8.webp" alt="veg" class="d-none d-lg-block">
-    </div>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-title-wrap">
-            <h2 class="title">A Hobby, a Talent, and now, a <span class="custom-primary">Profession</span> </h2>
-            <p class="subtitle">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-              a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block">
-        </div>
-      </div>
-
-      <div class="section pb-0">
-        <div class="row">
-          <div class="col-lg-6">
-          </div>
-          <div class="col-lg-6">
-            <div class="section-title-wrap">
-              <h2 class="title"> Organic spice is here <span class="custom-primary"> Grab It </span> </h2>
-              <p class="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- About us End -->
 
  
   <!-- Footer Start -->

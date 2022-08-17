@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shree Aai Foods - About </title>
+  <title>Shree Aai Foods - Privacy Policy </title>
 
   <!-- Vendor Stylesheets -->
   <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
@@ -24,7 +24,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets\img\logo\footer_logo.png">
 
 </head>
-
+<style>
+    .sheading{
+     float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 500;
+    color: #e31e25;
+    border-bottom: 1px solid #ffb310;
+    }
+</style>
 <body>
 
   <!-- Preloader start -->
@@ -140,11 +149,11 @@
     <div class="absolute-subheader">
     <div class="container">
       <div class="subheader-inner">
-        <h1>About Us</h1>
+        <h1>Privacy Policy</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
           </ol>
         </nav>
         <img src="assets/img/veg/8.webp" class="image-1" alt="img">
@@ -157,95 +166,49 @@
 
   <!-- About Us Start -->
   <section class="section extra-padding">
-    <div class="imgs-wrapper">
-      <img src="assets/img/veg/6.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/9.webp" alt="veg" class="d-none d-lg-block">
-    </div>
     <div class="container">
 
-      <div class="section-title-wrap text-center">
-        <h2 class="title">  Spices for <span class="custom-primary">5 Years</span> a hobbiest for 30</h2>
+      <div class="row">
+        <div class="col-12">
+        <!-- <h3 class="title"><span class="custom-primary">Privacy</span> Policy</h3> -->
+        <h3 class="sheading">Privacy Policy</h3>
         <p class="subtitle">
-        Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value. </p>
-        <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
+            <li class="fas fa-angle-double-right" ></li>
+            The website – ‘<a href="http://masala.tectignis.in">masala.tectignis.in</a>’ (“website”) owned and operated by Shree Aai FOODS Private Limited. We are committed to protecting and respecting Your privacy.We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
+            
+        </p>
+        <p>
+            <li class="fas fa-angle-double-right"></li>
+    
+            Our privacy policy is subject to change at any time without notice. To make sure you are aware of any changes, please review this policy periodically.
+            </p>
+        <!-- <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a> -->
+        </div>
       </div>
-
+      <br>
+      <div class="row">
+        <div class="col-12">
+        <h3 class="sheading">Changes to the Policy</h3>
+        <p class="subtitle">
+            <li class="fas fa-angle-double-right" ></li>
+            We may update this Policy from time to time.
+        </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-12">
+        <h3 class="sheading">Contact</h3>
+        <p class="subtitle">
+            <li class="fas fa-angle-double-right" ></li>
+            Please address Your grievances, feedback or questions, without limitation, with respect to the collection, processing, usage, disclosure, security of Your information in writing to us at <a href="mailto:shreeaaipratishthan@gmail.com">shreeaaipratishthan@gmail.com</a>. You can always withdraw Your consent for usage, processing of Your information by us by writing to us at the address mentioned above.
+        </p>
+        </div>
+      </div>
     </div>
   </section>
   <!-- About Us End -->
 
-  <!-- CTA Start -->
-  <section class="section section-padding pt-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="cta-item item-1">
-            <div class="cta-item-inner">
-              <span class="custom-secondary">Generic</span>
-              <h3>World Of Spices</h3>
-              <a href="shop.php" class="btn-custom secondary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
-            </div>
-            <img src="assets/img/categories/png-1.webp" alt="cta">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="cta-item item-2">
-            <div class="cta-item-inner">
-              <span class="custom-primary">Arya</span>
-              <h3>World Of Taste !</h3>
-              <a href="shop.php" class="btn-custom primary"> View Spicess <i class="fas fa-arrow-right"></i> </a>
-            </div>
-            <img src="assets/img/categories/png-2.webp" alt="cta">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CTA End -->
-
-
-  <!-- About us Start -->
-  <section class="section pt-0">
-    <div class="imgs-wrapper-2">
-      <img src="assets/img/veg/3.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/5.webp" alt="veg" class="d-none d-lg-block">
-      <img src="assets/img/veg/8.webp" alt="veg" class="d-none d-lg-block">
-    </div>
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-title-wrap">
-            <h2 class="title">A Hobby, a Talent, and now, a <span class="custom-primary">Profession</span> </h2>
-            <p class="subtitle">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-              a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block">
-        </div>
-      </div>
-
-      <div class="section pb-0">
-        <div class="row">
-          <div class="col-lg-6">
-          </div>
-          <div class="col-lg-6">
-            <div class="section-title-wrap">
-              <h2 class="title"> Organic spice is here <span class="custom-primary"> Grab It </span> </h2>
-              <p class="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-  <!-- About us End -->
 
  
   <!-- Footer Start -->

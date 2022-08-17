@@ -6,7 +6,7 @@ $masala_name=$_POST['masala_name'];
 $short_description=$_POST['short_description'];
 $categories=$_POST['categories'];
 $tags=$_POST['tags'];
-// $sku=$_POST['sku'];
+$tagsWithCom=implode(',',$_POST['tags']);
 $description=$_POST['description'];
 $file=$_FILES['file']['name'];
 $tmp_name = $_FILES['file']['tmp_name']; 
@@ -19,17 +19,17 @@ $filedet=$_POST['img'];
     $id=$_GET['eid'];
     $dnk = $_POST['portImage'];
     
-    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`file`='$filedet',`description`='$description' WHERE id='$id'");    
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tagsWithCom',`file`='$filedet',`description`='$description' WHERE id='$id'");    
     }
    
   else if(!empty($_FILES['file']['tmp_name']) && ($_POST['img']) || !empty($_FILES['file']['tmp_name']) && (empty($_POST['img']) && ($_GET['eid']))){
     $id=$_GET['eid'];
 move_uploaded_file($tmp_name, $loc);
-    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tags',`file`='$file',`description`='$description' WHERE id='$id'");    
+    $sql=mysqli_query($conn,"UPDATE `products` SET `masala_name`='$masala_name',`short_description`='$short_description',`categories`='$categories',`tags`='$tagsWithCom',`file`='$file',`description`='$description' WHERE id='$id'");    
     }else{
 
 move_uploaded_file($tmp_name, $loc);
-$sql=mysqli_query($conn,"INSERT INTO `products`(`masala_name`, `short_description`, `categories`, `tags`,`file`, `description`) VALUES ('$masala_name','$short_description','$categories','$tags','$file','$description')");}
+$sql=mysqli_query($conn,"INSERT INTO `products`(`masala_name`, `short_description`, `categories`, `tags`,`file`, `description`) VALUES ('$masala_name','$short_description','$categories','$tagsWithCom','$file','$description')");}
   
   if($sql==1){
      header("location:products.php");
@@ -54,7 +54,6 @@ $masala_name='';
 $short_description='';
 $categories='';
 $tags='';
-// $sku='';
 $file='';
 $description='';
 if(isset($_GET['eid'])){
@@ -64,7 +63,6 @@ if(isset($_GET['eid'])){
   $short_description=$row['short_description'];
   $categories=$row['categories'];
   $tags=$row['tags'];
-  // $sku=$row['sku'];
   $file=$row['file'];
   $description=$row['description'];
 }
@@ -198,14 +196,14 @@ if(isset($_GET['eid'])){
                           <label class="col-sm-3 col-form-label"><b>Masala Name</b></label>
                           <div class="col-sm-9">
                             <input type="text" class="form-control"
-                              name="masala_name" value="<?php echo $masala_name; ?>">
+                              name="masala_name" placeholder="Masala Name" value="<?php echo $masala_name; ?>" required>
                           </div>
                         </div>
                          <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Short Description</b></label>
                           <div class="col-sm-9">
                             <input type="text" class="form-control"
-                              name="short_description" value="<?php echo $short_description; ?>">
+                              name="short_description" placeholder="Short Description" value="<?php echo $short_description; ?>" required>
                           </div>
                         </div>
                         <div class="form-group row">
@@ -213,9 +211,9 @@ if(isset($_GET['eid'])){
                         <div class="col-sm-9">
                           
                           
-                            <select class="form-control select2" style="width: 100%;" name="categories">
+                            <select class="form-control select2" data-placeholder="Categories" style="width: 100%;" name="categories">
 
-                              <option selected="selected">Select Categories</option>
+                              <option selected="selected" data-placeholder="Categories">Select Categories</option>
                               <?php $sql=mysqli_query ($conn,"select * from add_categories");
                           while($arr=mysqli_fetch_array($sql)){
                             ?>
@@ -226,24 +224,19 @@ if(isset($_GET['eid'])){
                             </select>
                           </div>
                         </div>
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label"><b>Tags</b></label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control"
-                              name="tags" value="<?php echo $tags;?>">
-                          </div>
-                        </div>
-                        <!-- <div class="form-group row">
-                        <label class="col-sm-3 col-form-label">SKU</label>
+                         <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">Tags</label>
                         <div class="col-sm-9">
-                            <select class="form-control select2" style="width: 100%;" name="sku">
-                              <option selected="selected">Select SKU</option>
-                              <option>Applicable</option>
-                              <option>N/A</option>
-                              <option selected="selected"></option>
+                            <select class="select2" multiple="multiple" data-placeholder="Tags" style="width: 100%;" name="tags[]">
+                              <option selected><?php echo $tags;?></option>
+                              <option>Mutton Masala</option>
+                              <option>Garam Masala</option>
+                              <option>Paneer Masala</option>
+                              <option>Fish Masala</option>
+                              <option>Chicken Masala</option>
                             </select>
                           </div>
-                        </div> -->
+                        </div>
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Upload Image</b></label>
                           <div class="col-sm-9">
@@ -259,7 +252,7 @@ if(isset($_GET['eid'])){
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label"><b>Description</b></label>
                           <div class="col-sm-9">
-                          <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" name="description"><?php echo $description;?></textarea> 
+                          <textarea class="form-control" placeholder="Description" id="exampleFormControlTextarea5" rows="3" name="description" required><?php echo $description;?></textarea> 
                           </div>
                         </div>
                       </div>
