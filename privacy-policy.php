@@ -174,7 +174,7 @@
         <h3 class="sheading">Privacy Policy</h3>
         <p class="subtitle">
             <li class="fas fa-angle-double-right" ></li>
-            The website – ‘<a href="http://masala.tectignis.in">masala.tectignis.in</a>’ (“website”) owned and operated by Shree Aai FOODS Private Limited. We are committed to protecting and respecting Your privacy.We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
+            The website – ‘<a href="http://aaifoods.com">aaifoods.com</a>’ (“website”) owned and operated by Shree Aai FOODS Private Limited. We are committed to protecting and respecting Your privacy.We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
             
         </p>
         <p>

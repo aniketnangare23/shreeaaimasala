@@ -229,11 +229,14 @@ if(isset($_GET['eid'])){
                         <div class="col-sm-9">
                             <select class="select2" multiple="multiple" data-placeholder="Tags" style="width: 100%;" name="tags[]">
                               <option selected><?php echo $tags;?></option>
-                              <option>Mutton Masala</option>
-                              <option>Garam Masala</option>
-                              <option>Paneer Masala</option>
-                              <option>Fish Masala</option>
-                              <option>Chicken Masala</option>
+                              <option>Spices</option>
+                              <option>Chilli</option>
+                              <option>Blends</option>
+                              <option>Papad</option>
+                              <option>Pickle</option>
+                              <option>Chatani</option>
+                              <option>Shevai</option>
+                              <option>Diwali Faral</option>
                             </select>
                           </div>
                         </div>

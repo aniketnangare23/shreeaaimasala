@@ -161,7 +161,7 @@
 
       <div class="row text-center">
         <div class="col-12">
-        <h3 class="title"><span class="custom-primary">Terms</span> & Condition</h3>
+        <!-- <h3 class="title"><span class="custom-primary">Terms</span> & Condition</h3> -->
         <p class="subtitle">
         This website is operated by Shree Aai FOODS Pvt Ltd. Throughout the site, the terms “we”, “us” and “our” refer to Shree Aai FOODS Pvt Ltd.
         Shree Aai FOODS Pvt Ltd. offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.

@@ -164,7 +164,7 @@
     <div class="container">
 
       <div class="section-title-wrap text-center">
-        <h2 class="title">  Spices for <span class="custom-primary">5 Years</span> a hobbiest for 30</h2>
+        <h2 class="title">  Spices for <span class="custom-primary">10 Years</span> a hobbiest for 30</h2>
         <p class="subtitle">
         Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value. </p>
         <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
@@ -216,11 +216,9 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="section-title-wrap">
-            <h2 class="title">A Hobby, a Talent, and now, a <span class="custom-primary">Profession</span> </h2>
+            <h2 class="title"><span class="custom-primary">Malvani</span> Masala</h2>
             <p class="subtitle">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-              a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
-            </p>
+            Malvani masala powder is a popular Maharashtrian spice mix, which is used to flavour curries and sabzis. This dry spice powder has a very appetizing flavour and irresistible aroma, which results from the interplay of over a dozen spices!</p>
           </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
@@ -233,10 +231,9 @@
           </div>
           <div class="col-lg-6">
             <div class="section-title-wrap">
-              <h2 class="title"> Organic spice is here <span class="custom-primary"> Grab It </span> </h2>
+              <h2 class="title"><span class="custom-primary">Goda</span> Masala </h2>
               <p class="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
+              when you smell goda masala, you won't sense the heat & pungency which is felt in other spice blends like garam masala and its variations. Hence this masala gets translated in english to sweet masala. Sweet not in taste but in aroma
               </p>
             </div>
           </div>

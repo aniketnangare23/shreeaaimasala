@@ -159,13 +159,15 @@
   <section class="section extra-padding">
     <div class="container">
 
-      <div class="section-title-wrap text-center">
-        <h3 class="title"><span class="custom-primary">Refund</span> Policy</h3>
+      <div class="row text-center">
+        <div class="col-12">
+        <!-- <h3 class="title"><span class="custom-primary">Refund</span> Policy</h3> -->
         <p class="subtitle">
-        We initiate the refund within 2 working days of receiving the product at our centre in case of Returns. In case of cancellations, if the product is not shipped, we initiate the refund immediately.</p>
+            <i class="fas fa-angle-double-right" ></i>
+            We initiate the refund within 2 working days of receiving the product at our centre in case of Returns. In case of cancellations, if the product is not shipped, we initiate the refund immediately.</p>
         <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
+    </div>
       </div>
-
     </div>
   </section>
   <!-- About Us End -->

@@ -2272,14 +2272,14 @@ table img{
 4. Banner
 ========================*/
 
-.can-sticky + .banner{
-  /* padding: 0 0 120px; */
-}
+/* .can-sticky + .banner{
+  padding: 0 0 120px;
+} */
 .banner{
   position: relative;
   padding: 120px 0;
   background-size: cover;
-  background-position: center;
+  background-position: left center;
   min-height: 800px;
 }
 .banner > .container{
@@ -2376,6 +2376,7 @@ table img{
   padding-top: 77px;
   margin-bottom:7px;
 }
+
 
 /* 4.1. Image Banner */
 .banner.banner-img{
@@ -2711,6 +2712,7 @@ table img{
   text-align: center;
   border-radius: 8px;
   margin-bottom: 30px;
+  margin-top:83px;
 }
 .ct-category .ct-category-icon{
   color: #f73614;

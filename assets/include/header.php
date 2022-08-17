@@ -1,7 +1,7 @@
  <!-- Header Start -->
  <header class="main-header header-1 can-sticky">
      <!-- Topbar -->
-     <div class="topbar" style="height:40px">
+     <div class="topbar" style="height:35px">
          <div class="container-fluid">
              <div class="row">
                  <div class="col-md-8">

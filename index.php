@@ -64,44 +64,21 @@
     <!-- Header End -->
 
   <!-- Banner Start -->
-  <div class="banner" style="margin-bottom:-130px">
-    <!-- <video autoplay muted loop id="myVideo"> -->
-      <!-- <source src="assets/vids/video-banner.mp4" type="video/mp4"> -->
-      
-    <!-- </video> -->
-    <img src="assets/img/banner/3.webp" class="ibanner" alt="">
-    <!-- Prev Arrow -->
-    <i class="slider-prev fas fa-arrow-left slick-arrow"></i>
-    <div class="container">
-
+  <section class="hero">
+  <div class="banner dark-overlay dark-overlay-2" style="margin-bottom:-130px;  background-image: url('assets/img/banner/3.webp');">
+    <!-- <img src="assets/img/banner/3.webp" class="ibanner" alt=""> -->
+     <div class="container">
       <div class="banner-slider">
         <div class="banner-item text-center">
           <div class="banner-inner">
             <h1 class="title text-white">Spices Brings Taste To Your   <span class="custom-primary"> Kitchen </span> </h1>
-            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i> </a>
-          </div>
-        </div>
-        <div class="banner-item text-center">
-          <div class="banner-inner">
-            <h1 class="title text-white">Get All  <span class="custom-primary"> Spices </span> Here </h1>
-            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="banner-item text-center">
-          <div class="banner-inner">
-            <h1 class="title text-white"><span class="custom-primary">Spices </span> From Authentic Source , Grab It</h1>
-            <p class="subtitle text-white icontent">Bacon ipsum dolor amet ball tip pork chop cow tenderloin andouille. Pastrami pork picanha tongue venison strip steak</p>
-            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Spices Bazzar <i class="fas fa-arrow-right"></i></a>
+            <a href="shop.php" class="btn-custom primary shadow-none ibtn">Visit Shop <i class="fas fa-arrow-right"></i> </a>
           </div>
         </div>
       </div>
-
     </div>
-    <!-- Next Arrow -->
-    <i class="slider-next fas fa-arrow-right slick-arrow"></i>
   </div>
+</section>
   <!-- Banner End -->
 
   <!-- Categories Section Start -->
@@ -145,16 +122,16 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a class="ct-category">
+          <a class="ct-category mt-2">
             <div class="ct-category-icon">
               <i class="flaticon-spices-3"></i>
-              <h5>Masalas Garam</h5>
+              <h5>Masala Garam</h5>
               <!-- <span>55 Spicess</span> -->
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a class="ct-category">
+          <a class="ct-category mt-2">
             <div class="ct-category-icon">
               <i class="flaticon-anise"></i>
               <h5>Sambar Masala</h5>
@@ -163,7 +140,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a class="ct-category">
+          <a class="ct-category mt-2">
             <div class="ct-category-icon">
               <i class="flaticon-herb"></i>
               <h5>Mutton Masala</h5>
@@ -172,7 +149,7 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
-          <a class="ct-category">
+          <a class="ct-category mt-2">
             <div class="ct-category-icon">
               <i class="flaticon-condiment"></i>
               <h5>Egg Curry Masala</h5>
@@ -197,7 +174,7 @@
           </div>
           <div class="col-lg-6">
             <div class="section-title-wrap">
-              <h2 class="title">We Have  <span class="custom-primary">35 Years </span> Of Experience </h2>
+              <h2 class="title">We Have  <span class="custom-primary">10 Years </span> Of Experience </h2>
               <h3 class="subtitle">We Provide The Best Spices in The Market.</h3>
               <p class="subtitle mb-0">
               Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value.
@@ -211,19 +188,19 @@
                       <span class="check">
                       <i class="fas fa-check"></i>
                       </span>
-                      Nsectetur cing elit.
+                      Natural
                     </li>
                     <li>
                       <span class="check">
                       <i class="fas fa-check"></i>
                       </span>
-                      Nsectetur cing elit.
+                      Pure
                     </li>
                     <li>
                       <span class="check">
                       <i class="fas fa-check"></i>
                       </span>
-                      Nsectetur cing elit.
+                      No preserivatvies
                     </li>
                   </ul>
                 </div>
@@ -231,7 +208,7 @@
                   <div class="experience-box">
                     <span class="text">
                     Since <br>
-                    2008
+                    2012
                     </span>
                   </div>
                 </div>
@@ -461,7 +438,7 @@
             <div class="ct-product-thumbnail">
             <a href="product-details.php?id=<?php echo $arr['id'] ?>"><img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="product"></a>
               <div class="ct-product-controls">
-              <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Read More <i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
