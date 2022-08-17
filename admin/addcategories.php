@@ -1,14 +1,29 @@
 <?php 
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+  $categories=$_POST['categories'];
+  $id=$_GET['eid'];
+
+  $sql="UPDATE `add_categories` SET `categories`='$categories' WHERE id='$id'";
+  if (mysqli_query($conn, $sql)){
+ } 
+ else {
+    echo "<script> alert ('connection failed !');</script>";
+ }
+
+}
+
+
 if(isset($_GET['delid'])){
   $id=mysqli_real_escape_string($conn,$_GET['delid']);
   $sql=mysqli_query($conn,"delete from add_categories where id='$id'");
   if($sql=1){
-    header("location:add_categories.php");
+    header("location:addcategories.php");
   }
 }
 
+$categories="";
 if(isset($_GET['eid'])){
   $sql=mysqli_query($conn,"select * from add_categories where id='$_GET[eid]'");
   $row=mysqli_fetch_array($sql);
@@ -110,13 +125,13 @@ if(isset($_GET['eid'])){
                 <h4 class="card-title">Add Categories</h4>  
                 </div>
                 <div class="card-body">
-                  <form action="addcategoriesDB.php" class="form-sample" method="post" enctype="multipart/form-data">
-                    <div class="row">
+                  <form action="" class="form-sample" method="post" enctype="multipart/form-data">
+                    <div class="row"> 
                       <div class="col-md-12">
                         <div class="form-group row">
                         <label class="col-sm-3 col-form-label">Categories</label>
                         <div class="col-sm-9">
-                            <input type="text" class="form-control" name="categories">
+                            <input type="text" class="form-control" name="categories" value="<?php echo $categories;?>">
                             </select>
                           </div>
                         </div>
@@ -164,11 +179,11 @@ if(isset($_GET['eid'])){
                           </td>
                           <td>
                             <a class="btn btn-primary btn-rounded btn-icon"
-                              href="add_categories.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
+                              href="addcategories.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
                                 class="fa fa-edit"></i></a>
 
                             <a class="btn btn-danger btn-rounded btn-icon"
-                              href="add_categories.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
+                              href="addcategories.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
                               class="btn btn-primary btn-rounded btn-icon">
                               <i class="fas fa-trash"></i>
                           </td>

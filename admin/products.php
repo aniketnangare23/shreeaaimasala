@@ -222,7 +222,7 @@ if(isset($_GET['eid'])){
                             <option selected="selected"><?php echo $categories; ?></option>
                               
                             </select>
-                          </div>
+                          </div> 
                         </div>
                          <div class="form-group row">
                         <label class="col-sm-3 col-form-label">Tags</label>

@@ -25,7 +25,6 @@
             <h5 class="widget-title">Legal</h5>
             <ul>
               <li> <a href="privacy-policy.php">Privacy Policy</a> </li>
-              <li> <a href="refund-policy.php">Refund Policy</a> </li>
               <li> <a href="t&c.php">Terms & Conditions</a> </li>
             </ul>
 
@@ -54,7 +53,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
-          <p class="m-0">&copy; 2022 <a href="masala.tectignis.in">Shree Aai Foods </a> | All Rights Reserved.</p>
+          <p class="m-0">&copy; 2022 <a href="http://aaifoods.com" target="_blank">Shree Aai Foods </a> | All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 footer-widget pb-0 text-center text-lg-right">
           <div class="payment-image">

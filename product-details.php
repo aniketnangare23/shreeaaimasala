@@ -236,7 +236,7 @@ $id=$_GET['id'];
             <img src="admin/dist/img/images/<?php echo $arr['file'] ?>" alt="detail">
               <!-- <a href="#"><img src="assets/img/products/2.webp" alt="product"></a> -->
               <div class="ct-product-controls">
-                <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                <a href="product-details.php?id=<?php echo $arr['id'] ?>" class="btn-custom secondary">Read More<i class="fas fa-arrow-right"></i> </a>
               </div>
             </div>
             <div class="ct-product-body">
