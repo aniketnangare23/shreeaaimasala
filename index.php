@@ -34,7 +34,7 @@
 
   <!-- Preloader start -->
   <div class="ct-preloader">
-    <img src="assets/img/preloader.svg" alt="preloader">
+    <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
   </div>
   <!-- Preloader End -->
     <!-- Aside (Mobile Navigation) -->
@@ -177,7 +177,7 @@
               <h2 class="title">We Have  <span class="custom-primary">10 Years </span> Of Experience </h2>
               <h3 class="subtitle">We Provide The Best Spices in The Market.</h3>
               <p class="subtitle mb-0">
-              Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value.
+              Shree aai foods has been in the business of creating spices and spice blends from India that make for great tasting food for the last 10 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value.
               </p>
             </div>
             <div class="about-content">
@@ -370,7 +370,7 @@
               <i class="flaticon-left-quote"></i>
               <span>Vedant Naidu</span>
               <p>
-              Shree Aai FOODS (P) Ltd. Is truly a leader in Turmeric and all range of spices and spice blends. NAF’s quality and freshness, and their creativity with blends and the introduction of new flavors are unparalleled. Their infrastructure for Retail Private Manufacturing, packaging and Labelling is huge and as a wholesale client I would wholeheartedly recommend NAF Spices as a supplier. Their level of professionalism and customer service is consistent regardless of whether my orders were 200kgs or 2 tons.              </p>
+              Shree aai foods Pvt. Ltd. Is truly a leader in Turmeric and all range of spices and spice blends. NAF’s quality and freshness, and their creativity with blends and the introduction of new flavors are unparalleled. Their infrastructure for retail private manufacturing, packaging and labelling is huge and as a wholesale client I would wholeheartedly recommend NAF spices as a supplier. Their level of professionalism and customer service is consistent regardless of whether my orders were 200kgs or 2 tons.              </p>
             </div>
           </div>
           <div class="ct-testimonial-item">
@@ -378,7 +378,7 @@
               <i class="flaticon-left-quote"></i>
               <span>Sarvesh Hiwale</span>
               <p>
-              Shree Aai FOODS products are really outstanding and have been carefully crafted to provide the right flavors and consistency to the dishes. We are really happy with the quality of the products.</p>
+              Shree aai foods products are really outstanding and have been carefully crafted to provide the right flavors and consistency to the dishes. We are really happy with the quality of the products.</p>
             </div>
           </div>
         </div>

@@ -29,8 +29,8 @@
 
   <!-- Preloader start -->
   <div class="ct-preloader">
-    <img src="assets/img/preloader.svg" alt="preloader">
-  </div>
+  <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
+     </div>
   <!-- Preloader End -->
 <!-- partial:partia/__sidenav.html -->
     <aside class="sigma_aside sigma_aside-right sigma_aside-right-panel sigma_aside-bg">
@@ -163,8 +163,8 @@
         <div class="col-12">
         <!-- <h3 class="title"><span class="custom-primary">Terms</span> & Condition</h3> -->
         <p class="subtitle">
-        This website is operated by Shree Aai FOODS Pvt Ltd. Throughout the site, the terms “we”, “us” and “our” refer to Shree Aai FOODS Pvt Ltd.
-        Shree Aai FOODS Pvt Ltd. offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
+        This website is operated by shree aai foods Pvt. Ltd. Throughout the site, the terms “we”, “us” and “our” refer to shree aai foods Pvt. Ltd.
+        shree aai foods Pvt. Ltd. offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
         By using our website, you accept these terms and conditions in full accordingly, if you disagree with these terms and conditions or any part of these terms and conditions, you must not use our website.
         If you register with our Mobile App, submit any material to our website or use any of our website services, we will ask you to expressly agree to these terms and conditions.</p>
         <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>

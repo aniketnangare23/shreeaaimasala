@@ -29,7 +29,7 @@
 
   <!-- Preloader start -->
   <div class="ct-preloader">
-    <img src="assets/img/preloader.svg" alt="preloader">
+  <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
   </div>
   <!-- Preloader End -->
 <!-- partial:partia/__sidenav.html -->
@@ -166,7 +166,7 @@
       <div class="section-title-wrap text-center">
         <h2 class="title">  Spices for <span class="custom-primary">10 Years</span> a hobbiest for 30</h2>
         <p class="subtitle">
-        Shree Aai FOODS has been in the business of creating spices and spice blends from India that make for great tasting food for the last 5 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value. </p>
+        Shree aai foods has been in the business of creating spices and spice blends from India that make for great tasting food for the last 10 years. We blend spices better, thanks to a committed infrastructure that focuses on research and development. Our packaging capabilities allow us to integrate seamlessly with our supply chain, providing our customers with unmatched value. </p>
         <a href="contact-us.php" class="btn-custom primary"> Contact Me <i class="fas fa-arrow-right"></i> </a>
       </div>
 

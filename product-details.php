@@ -34,7 +34,8 @@ $id=$_GET['id'];
 
   <!-- Preloader start -->
   <div class="ct-preloader">
-    <img src="assets/img/preloader.svg" alt="preloader">
+  <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
+    
   </div>
   <!-- Preloader End -->
 <!-- partial:partia/__sidenav.html -->

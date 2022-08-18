@@ -38,7 +38,7 @@
 
   <!-- Preloader start -->
   <div class="ct-preloader">
-    <img src="assets/img/preloader.svg" alt="preloader">
+  <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
   </div>
   <!-- Preloader End -->
 <!-- partial:partia/__sidenav.html -->
@@ -174,7 +174,7 @@
         <h3 class="sheading">Privacy Policy</h3>
         <p class="subtitle">
             <li class="fas fa-angle-double-right" ></li>
-            The website – ‘<a href="http://aaifoods.com">aaifoods.com</a>’ (“website”) owned and operated by Shree Aai FOODS Private Limited. We are committed to protecting and respecting Your privacy.We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
+            The website – ‘<a href="http://aaifoods.com">aaifoods.com</a>’ (“website”) owned and operated by shree aai foods Pvt. Ltd. We are committed to protecting and respecting Your privacy.We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer information privacy. Please read the following statement to learn about our information gathering and dissemination practices.
             
         </p>
         <p>

@@ -33,7 +33,8 @@
 <body>
     <!-- Preloader start -->
     <div class="ct-preloader">
-        <img src="assets/img/preloader.svg" alt="preloader">
+  <img src="assets/img/logo/LOGO.png" alt="preloader"  style="margin: auto; width="180px" height="180px">
+       
     </div>
     <!-- Preloader End -->
     <!-- partial:partia/__sidenav.html -->
@@ -211,7 +212,7 @@
                         <input type="text" placeholder="Full Name" class="form-control" name="name" value=""  required>
                     </div>
                     <div class="form-group col-lg-6">
-                        <input type="text" placeholder="Phone No." class="form-control" name="phone" value="" minlength="10" maxlength="10" required>
+                        <input type="number" placeholder="Phone No." class="form-control" name="phone" value="" minlength="10" maxlength="10" required>
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="email" placeholder="Email Address" class="form-control" name="email" value="" required>
@@ -265,7 +266,7 @@
     if( $sql==1){
         ?>
         <script>
-        swal("Registration Successfully !", "You clicked the button!", "success")
+        swal("Thank You for contacting !", "We will get back to you soon!")
     </script>
         <?php
     }

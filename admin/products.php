@@ -150,7 +150,7 @@ if(isset($_GET['eid'])){
   <div class="wrapper">
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+      <img class="animation__shake" src="../assets/img/logo/LOGO.png" alt="AdminLTELogo" height="60" width="60">
     </div>
     
     <!-- partial:../../partials/_navbar.html -->
@@ -441,18 +441,7 @@ if(isset($_GET['eid'])){
       theme: 'bootstrap4'
     })
 
-    //Datemask dd/mm/yyyy
-    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
-    //Datemask2 mm/dd/yyyy
-    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
-    //Money Euro
-    $('[data-mask]').inputmask()
-
-    //Date picker
-    $('#reservationdate').datetimepicker({
-        format: 'L'
-    });
-
+    
     //Date and time picker
     $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
 
