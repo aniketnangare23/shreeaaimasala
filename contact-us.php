@@ -29,7 +29,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets\img\logo\footer_logo.png">
     <script src="../../../../../www.google.com/recaptcha/apifae7.js?render=6LceXdwUAAAAAM624k2Zezhs-jnmdJE8hjmhRMBh"></script>
 </head>
+<style>
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
 <body>
     <!-- Preloader start -->
     <div class="ct-preloader">
@@ -209,13 +220,13 @@
             <form method="post">
                 <div class="row">
                     <div class="form-group col-lg-6">
-                        <input type="text" placeholder="Full Name" class="form-control" name="name" value=""  required>
+                        <input type="text" placeholder="Full Name" class="form-control" name="name" required>
                     </div>
                     <div class="form-group col-lg-6">
-                        <input type="number" placeholder="Phone No." class="form-control" name="phone" value="" minlength="10" maxlength="10" required>
+                        <input type="number" placeholder="Phone No." class="form-control" name="phone" max="10" required>
                     </div>
                     <div class="form-group col-lg-12">
-                        <input type="email" placeholder="Email Address" class="form-control" name="email" value="" required>
+                        <input type="email" placeholder="Email Address" class="form-control" name="email" required>
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="text" placeholder="Subject" class="form-control" name="subject" value="" required>

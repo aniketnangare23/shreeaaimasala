@@ -2,16 +2,24 @@
 include("include/config.php");
 
 if(isset($_POST['submit'])){
-  $categories=$_POST['categories'];
+  $categories=$_POST['categories']; 
   $id=$_GET['eid'];
 
-  $sql="UPDATE `add_categories` SET `categories`='$categories' WHERE id='$id'";
-  if (mysqli_query($conn, $sql)){
+ 
+  if (isset($_GET['eid'])){
+    $id=$_GET['eid'];
+    $sql=mysqli_query($conn,"UPDATE `add_categories` SET `categories`='$categories' WHERE id='$id'");
  } 
  else {
-    echo "<script> alert ('connection failed !');</script>";
- }
+  $sql=mysqli_query($conn,"INSERT INTO `add_categories`(`categories`) VALUES ('$categories')");
+  
+  if($sql==1){
+     header("location:addcategories.php");
+  }else{
+      mysqli_error($conn);
+  }
 
+}
 }
 
 
